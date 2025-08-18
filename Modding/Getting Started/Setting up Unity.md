@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-Modding Unturned requires using Unity. Most 2021.3 LTS version should be compatible; Unturned recommends using 2021.3.29f1 (as of 2024/4/23).
+Modding Unturned requires using Unity. Most 2021.3 LTS version should be compatible; Unturned recommends using 2021.3.29f1 (as of 2025-08-18).
 Once you install Unity, **create a project** to store your mods.
 ### Importing Tools
 Unturned provides multiple Unity packages. These packages include examples that can be referenced when creating custom content, and provide the tools necessary to export content from Unity.
@@ -21,9 +21,9 @@ This package contains vanilla content examples, and several useful prefabs:
 * `Resources/Characters/Preview.prefab` is helpful for previewing clothes.
 
 >[!important]
-Custom content should not be placed into the `CoreMasterBundle` directory. Instead, utilize the `Sandbox` folder. 
+Mods should **not** be placed into the `CoreMasterBundle` directory. Instead, utilize the `Sandbox` folder for global testing or `.../SomeMap/Bundles` for local map testing.
 
 ***
 
-(Proofread: 2024/04/23)
-Sources: [Source: Official documentation](https://docs.smartlydressedgames.com/en/stable/about/getting-started.html)
+(Proofread: 2025-08-18)
+Sources: [Official documentation](https://docs.smartlydressedgames.com/en/stable/about/getting-started.html)

@@ -1,11 +1,11 @@
 ---
 publish: true
 ---
-<u></u><u></u><u></u><u></u>This page will teach you how to make a basic object(building) and get it ready to export for Unturned. It will **not** teach you basics about making the asset itself, only the barebones of what is needed for you to complete and put the asset in-game.
-
+<u></u><u></u><u></u><u></u>This page will teach you how to make a basic object(building) and get it ready to export for Unturned. It will **not** teach you basics about creating the asset itself, only the barebones of what is needed for you to complete and put the asset in-game.
 ### What makes up an <u>Object</u>?
 *If you are too lazy to read or simply don't understand, you can find videos on youtube. You can also watch [Nelson's video](https://www.youtube.com/watch?si=JkNXE_ruAle7w1F4&t=2790).*
-* Nav - is what mobs use for its navigation. This mesh doesn't need roofs or frames(of windows, doors, etc). The mesh should be simple and the foundation should be expanded to be more of a ramp. Every ledge should be smoothed so that it does not have such a harsh corner like the ledge of a window should be more ramp like. It should exclude places unreachable by mobs. Needs a Mesh Collider. Tag and layer: Navmesh.
+Nav - is what mobs use for its navigation. 
+		This mesh doesn't need roofs or frames(of windows, doors, etc). The mesh should be simple and the foundation should be expanded to be more of a ramp. Every ledge should be smoothed so that it does not have such a harsh corner like the ledge of a window should be more ramp like. It should exclude places unreachable by mobs. Needs a Mesh Collider. Tag and layer: Navmesh.
 * Clip(optional) - is collision box on server, this collision box is not used for the client. Needs a Collider. Tag and layer: (Large, Medium, Small)
 * Skybox(optional) - is rendered when the object is considered a Landmark. This mesh should be very simple at around 30 triangles. It usually does not include an interior and is a primitive shape. Needs a Mesh Filter, and Mesh Renderer. Tag and layer: Large/Medium/Small
 * Object - is the main model which contains the LODs. The name of the LODs should be "Model\_#" with # being the number(starts from zero). Optionally, you can add Occlusion Areas. The objects in that box will will be culled early. Needs a LOD group, Mesh Filter, Mesh Renderer, and a Mesh Collider(or a primitive collider). The Mesh Collider is usually the LOD_1(second LOD). Tag and layer: (Large, Medium, Small)
