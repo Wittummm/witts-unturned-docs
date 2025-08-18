@@ -1,0 +1,1 @@
+This guide will only cover the Unity part. For full details, I recommended reading the [official documentation](https://docs.smartlydressedgames.com/en/stable/about/getting-started.html). 
