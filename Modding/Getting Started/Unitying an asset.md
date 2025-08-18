@@ -18,8 +18,10 @@ Each of these listed below is a Prefab, each being in the folder of your object.
 * Slots(optional) - consists of Box Colliders. The possible names are Door, Gate, Slot(for barricades like windows, etc). Tag and layer: Logic
 
 #### Example
-
-<figure><img src="../.gitbook/assets/475AB537-D115-4BF4-92AD-FA9D5863B0CB.jpeg" alt="Example hierarchy(sorry that you cant see it)" width="149"><figcaption><p>Example model</p></figcaption></figure>
+Right-click to create a preset 
+- Nav - Add component `Mesh Collider` + Set the mesh to your nav mesh + Set Tag & Layer to `Navmesh`
+- Clip - Add component `SomeTypeOf Collider`
+![[IMG_9263.jpeg|Prefabs, from Nelson]]
 Now let's put this prefab in Unity/MyMods/TestMod/TestModBundles/Objects/Large/MyFirstBuilding in Unity.
 
 ### .Dat files
