@@ -27,3 +27,10 @@ Mods should **not** be placed into the `CoreMasterBundle` directory. Instead, ut
 
 (Proofread: 2025-08-18)
 Sources: [Official documentation](https://docs.smartlydressedgames.com/en/stable/about/getting-started.html)
+
+```button
+name Next
+type link
+action obsidian://open?vault=Test%20Unturned%20Docs&file=Modding%2FGetting%20Started%2FUnitying%20an%20asset
+```
+^button-77pt

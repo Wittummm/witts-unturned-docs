@@ -1,10 +1,8 @@
 Create a folder in Unity for mod contents to go in. In this example, `Assets/MyMods/TestMod/Bundles`
-## Asset Label
+## Marking folder to Bundle
 By default, the inspector window should be opened on the right side. If not, go to the menu bar and click **Window** > **General** > **Inspector**.
-Navigate to the parent of Bundles(in this case **TestMod**), and select **Bundles**. Open the dropdown in **Asset Labels** and select **New...** Pick your desired bundle name suffixed with “.masterbundle”(mine will be testmodbundles.masterbundle). The name cannot contain spaces, underscores/dashes, capital letters, or special characters.
-
+Navigate to the parent of Bundles(in this case **TestMod**), and select **Bundles**. Open the dropdown in **Asset Labels** and select **New...** Pick your desired bundle name suffixed with “.masterbundle”, I'll do `testmodbundles.masterbundle`.The name should not contain spaces, underscores/dashes, capital letters, or special characters.
 ## Setting up folders for export
-
 Create a folder to export your assets into. This is also where your .dat and .asset files will be. If you're doing this for a map, it must be in the **Bundles** folder. Here you will create a file named **MasterBundle.dat**. If you haven't already, enable file name extensions to allow you to create the file easier. Note that the extensions must be correct or else Unturned wont recognize it(.txt does not work).
 
 ## Examples
