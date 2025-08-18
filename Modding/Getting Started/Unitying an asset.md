@@ -29,8 +29,7 @@ Right-click to create a preset
 
 Now let's put these prefab in the folder `Unity/ModsForMe/TestMod/Bundles/Objects/Large/MyFirstBuilding` in Unity. You can also store the source in `.../Source/...` as opposed to directly in`.../Bundles/...` (This is my personal preference).
 The folder should look similar to this.
-![[IMG_9263.jpeg|Prefabs, from Nelson]]
-
+![[building-prefab-example.jpeg|Prefab examples, from Nelson]]
 ### Making the .dat files
 `YourObjectName.dat` is where you configure the asset properties.
 * **GUID**(**G**lobal **U**nique **ID**entifier) - a random unique id, you can use [online generators](https://www.guidgenerator.com/) to generate it.
@@ -55,12 +54,9 @@ LOD_Bias 0.8
 Name My First Building!
 ```
 ### What Next?
-Now you should have English.dat and MyFirstBuilding.dat. For now, store them somewhere where you can easily access. For the next guide, I will show you how to bundle your assets and use these dat files to finally get your assets in game!
+Now you should have `English.dat` and `MyFirstBuilding.dat`. For now, store them somewhere where you can easily access. For the next guide, I will show you how to bundle your assets and use these data files to finally get your assets in game!
 
-***
-
-(Proofread: 2024/04/24)\
-Sources: [Official Documentation: Object Assets](https://docs.smartlydressedgames.com/en/stable/assets/object-asset.html)\
-Example Files: .../Objects/Large/Buildings
-
-[^1]: yi
+---
+(Proofread: 2025-08-18)
+Sources: [Official Documentation: Object Assets](https://docs.smartlydressedgames.com/en/stable/assets/object-asset.html)
+Example Files: `.../Objects/Large/Buildings`
