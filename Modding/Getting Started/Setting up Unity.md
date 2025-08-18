@@ -21,7 +21,7 @@ This package contains vanilla content examples, and several useful prefabs:
 * `Resources/Characters/Preview.prefab` is helpful for previewing clothes.
 
 >[!important]
-Custom content should not be placed into the `CoreMasterBundle` directory. Instead, utilize the `Sandbox` folder.
+Custom content should not be placed into the `CoreMasterBundle` directory. Instead, utilize the `Sandbox` folder. 
 
 ***
 
