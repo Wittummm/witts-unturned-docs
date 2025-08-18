@@ -23,11 +23,11 @@ Right-click to create a preset
 - Nav - Add component `Mesh Collider`, set the mesh to your nav mesh + Set Tag & Layer to `Navmesh`
 - Clip - Add component `Collider`(it can be any type, choose one you intend to use) + Set Tag & Layer to `MySize`
 - Skybox - Add component `Mesh Renderer`, set the mesh to your skybox mesh + Set Tag & Layer to `MySize`
-- Slots - Add components of `Box Collider`, place it accordingly and name it to one of the recognized names.
-- Objects - Create a Transform and name it like `Model_#` such as `Model_0` .
-	- For each `Model_#`
+- Slots - Add components of `Box Collider`, place it accordingly and name it to one of the recognized names. 
+- Objects - Create a Transform and name it like `Model_#` such as `Model_0`.
+	- For each `Model_#`, Add component `Mesh Renderer`, set the mesh to your Lod_# mesh + Add some type of `Collider` and configure accordingly.
 ![[IMG_9263.jpeg|Prefabs, from Nelson]]
-Now let's put this prefab in Unity/MyMods/TestMod/TestModBundles/Objects/Large/MyFirstBuilding in Unity.
+Now let's put these prefab in the folder `Unity/ModsForMe/TestMod/Bundles/Objects/Large/MyFirstBuilding` in Unity. You can also store the source in `.../Source/...` as o(this is my personal preference)
 
 ### .Dat files
 
