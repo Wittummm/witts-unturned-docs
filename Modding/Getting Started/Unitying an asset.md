@@ -32,7 +32,7 @@ The folder should look similar to this.
 ![[IMG_9263.jpeg|Prefabs, from Nelson]]
 
 ### Making the .dat files
-Overview of valid properties for Objects.
+`YourObjectName.dat` is where you configure the asset properties.
 * **GUID**(**G**lobal **U**nique **ID**entifier) - a random unique id, you can use [online generators](https://www.guidgenerator.com/) to generate it.
 * Type - the type of the Object. Small, Medium, Large, Decal, NPC. We are making a building which is Large.
 * ~~ID - a unique id ranging from 0 - 65535~~. IDs are not required for Objects(specifically) and have been phased out.
@@ -40,7 +40,7 @@ Overview of valid properties for Objects.
 * LOD - Area, Mesh. Mesh uses the bounding box of the mesh as the area there are other properties to modify it but it is all numbers and practically impossible to visualize. Area uses the Occlusion Areas named "Occlusion" as the areas to apply the bias on.
 * LOD\_Bias - How much to reduce the lod by. The higher the more detailed vice versa.
 
-```
+```title:MyFirstBuilding.dat
 // Hypens are not required, it is up to your preference.
 GUID 01de685f-0009-418a-ace8-637ad3063a7f
 
@@ -50,13 +50,11 @@ LOD Area
 LOD_Bias 0.8
 ```
 
-
-```
+`SomeLanguage.dat` is where you configure localization 
+```title:English.dat
 Name My First Building!
 ```
-
-### Next!
-
+### What Next?
 Now you should have English.dat and MyFirstBuilding.dat. For now, store them somewhere where you can easily access. For the next guide, I will show you how to bundle your assets and use these dat files to finally get your assets in game!
 
 ***
