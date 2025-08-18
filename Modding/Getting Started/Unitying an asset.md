@@ -27,7 +27,7 @@ Right-click to create a preset
 - Objects - Create a Transform and name it like `Model_#` such as `Model_0`.
 	- For each `Model_#`, Add component `Mesh Renderer`, set the mesh to your Lod_# mesh + Add some type of `Collider` and configure accordingly.
 
-Now let's put these prefab in the folder `Unity/ModsForMe/TestMod/Bundles/Objects/Large/MyFirstBuilding` in Unity. You can also store the source in `.../Source/...` as opposed to directly in`.../Bundles/...` (This is my personal preference).
+Now let's put these prefab in the folder `Assets/MyMods/TestMod/Bundles/Objects/Large/MyFirstBuilding` in Unity. You can also store the source in `.../Source/...` as opposed to directly in`.../Bundles/...` (This is my personal preference).
 The folder should look similar to this.
 ![[building-prefab-example.jpeg|Prefab examples, from Nelson]]
 ### Making the .dat files
