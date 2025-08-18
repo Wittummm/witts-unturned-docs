@@ -35,15 +35,14 @@ The folder should look similar to this.
 Overview of valid properties for Objects.
 * **GUID**(**G**lobal **U**nique **ID**entifier) - a random unique id, you can use [online generators](https://www.guidgenerator.com/) to generate it.
 * Type - the type of the Object. Small, Medium, Large, Decal, NPC. We are making a building which is Large.
-* ID(u- a unique id ranging from 0 - 65535(I'll use 50000)
+* ~~ID - a unique id ranging from 0 - 65535~~. IDs are not required for Objects(specifically) and have been phased out.
 * Landmark\_Quality - Off, Low, Medium, High, Ultra. As this is a building we will use Medium.
 * LOD - Area, Mesh. Mesh uses the bounding box of the mesh as the area there are other properties to modify it but it is all numbers and practically impossible to visualize. Area uses the Occlusion Areas named "Occlusion" as the areas to apply the bias on.
 * LOD\_Bias - How much to reduce the lod by. The higher the more detailed vice versa.
 
 ```
 // Hypens are not required, it is up to your preference.
-</strong>GUID 01de685f-0009-418a-ace8-637ad3063a7f
-ID 50000
+GUID 01de685f-0009-418a-ace8-637ad3063a7f
 
 Type Large
 Landmark_Quality Medium
