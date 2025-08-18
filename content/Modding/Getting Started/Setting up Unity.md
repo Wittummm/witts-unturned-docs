@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-18T21:05:14.797+07:00","modified":"2025-08-18T21:05:14.800+07:00","cssclasses":""}
+{"publish":true,"created":"2025-08-18T21:05:14.797+07:00","modified":"2025-08-18T21:41:34.240+07:00","cssclasses":""}
 ---
 
 Modding Unturned requires using Unity. Most 2021.3 LTS version should be compatible; Unturned recommends using 2021.3.29f1 (as of 2025-08-18).
@@ -32,6 +32,6 @@ Sources: [Official documentation](https://docs.smartlydressedgames.com/en/stable
 ```button
 name Next
 type link
-action obsidian://open?vault=Test%20Unturned%20Docs&file=Modding%2FGetting%20Started%2FUnitying%20an%20asset
+action obsidian://open?vault=Unturned%20Docs&file=Modding%2FGetting%20Started%2FUnitying%20an%20asset
 ```
 ^button-77pt

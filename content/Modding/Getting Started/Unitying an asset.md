@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-18T21:05:14.812+07:00","modified":"2025-08-18T21:05:56.949+07:00","cssclasses":""}
+{"publish":true,"created":"2025-08-18T21:05:14.812+07:00","modified":"2025-08-18T21:41:44.601+07:00","cssclasses":""}
 ---
 
 This page will teach you how to make a basic object(building) and get it ready to export for Unturned. It will **not** teach you basics about creating the asset itself, only the barebones of what is needed for you to complete and put the asset in-game.
@@ -65,12 +65,12 @@ Example Files: `.../Objects/Large/Buildings`
 ```button
 name Back
 type link
-action obsidian://open?vault=Test%20Unturned%20Docs&file=Modding%2FGetting%20Started%2FSetting%20up%20Unity
+action obsidian://open?vault=Unturned%20Docs&file=Modding%2FGetting%20Started%2FSetting%20up%20Unity
 ```
 ^button-zqll
 ```button
 name Next
 type link
-action obsidian://open?vault=Test%20Unturned%20Docs&file=Modding%2FGetting%20Started%2FMasterbundling%20the%20Asset
+action obsidian://open?vault=Unturned%20Docs&file=Modding%2FGetting%20Started%2FMasterbundling%20the%20Asset
 ```
 ^button-0ian
