@@ -17,7 +17,7 @@ Each of these listed below is a Prefab, each being in the folder of your object.
 	* Optionally, you can add Occlusion Areas. The objects in that box will will be culled early. Needs a LOD group, Mesh Filter, Mesh Renderer, and a Mesh Collider(or a primitive collider). The Mesh Collider is usually the LOD_1(second LOD). Tag and layer: (Large, Medium, Small)
 * Slots(optional) - consists of Box Colliders. The possible names are Door, Gate, Slot(for barricades like windows, etc). Tag and layer: Logic
 
-#### Example
+#### Making the prefabs
 Right-click to create a preset 
 `MySize` refers to Small, Medium or Large, choose one that matches your needs.
 - Nav - Add component `Mesh Collider`, set the mesh to your nav mesh + Set Tag & Layer to `Navmesh`
@@ -26,14 +26,22 @@ Right-click to create a preset
 - Slots - Add components of `Box Collider`, place it accordingly and name it to one of the recognized names. 
 - Objects - Create a Transform and name it like `Model_#` such as `Model_0`.
 	- For each `Model_#`, Add component `Mesh Renderer`, set the mesh to your Lod_# mesh + Add some type of `Collider` and configure accordingly.
+
+Now let's put these prefab in the folder `Unity/ModsForMe/TestMod/Bundles/Objects/Large/MyFirstBuilding` in Unity. You can also store the source in `.../Source/...` as opposed to directly in`.../Bundles/...` (This is my personal preference).
+The folder should look similar to this.
 ![[IMG_9263.jpeg|Prefabs, from Nelson]]
-Now let's put these prefab in the folder `Unity/ModsForMe/TestMod/Bundles/Objects/Large/MyFirstBuilding` in Unity. You can also store the source in `.../Source/...` as o(this is my personal preference)
 
-### .Dat files
+### Making the .dat files
+Overview of valid properties for Objects.
+* **GUID**(**G**lobal **U**nique **ID**entifier) - a random unique id, you can use [online generators](https://www.guidgenerator.com/) to generate it.
+* Type - the type of the Object. Small, Medium, Large, Decal, NPC. We are making a building which is Large.
+* ID(u- a unique id ranging from 0 - 65535(I'll use 50000)
+* Landmark\_Quality - Off, Low, Medium, High, Ultra. As this is a building we will use Medium.
+* LOD - Area, Mesh. Mesh uses the bounding box of the mesh as the area there are other properties to modify it but it is all numbers and practically impossible to visualize. Area uses the Occlusion Areas named "Occlusion" as the areas to apply the bias on.
+* LOD\_Bias - How much to reduce the lod by. The higher the more detailed vice versa.
 
-#### **Example**
-
-<pre data-title="MyFirstBuilding.dat" data-full-width="true"><code><strong>// Hypens are not required, it is up to your preference.
+```
+// Hypens are not required, it is up to your preference.
 </strong>GUID 01de685f-0009-418a-ace8-637ad3063a7f
 ID 50000
 
@@ -41,14 +49,8 @@ Type Large
 Landmark_Quality Medium
 LOD Area
 LOD_Bias 0.8
-</code></pre>
+```
 
-* **GUID**(**G**lobal **U**nique **ID**entifier) - a random unique id, you can use online generators to generate it.
-* Type - Small, Medium, Large, Decal, NPC. We are making a building which is Large.
-* ID - a unique id ranging from 0 - 65535(I'll use 50000)
-* Landmark\_Quality - Off, Low, Medium, High, Ultra. As this is a building we will use Medium.
-* LOD - Area, Mesh. Mesh uses the bounding box of the mesh as the area there are other properties to modify it but it is all numbers and practically impossible to visualize. Area uses the Occlusion Areas named "Occlusion" as the areas to apply the bias on.
-* LOD\_Bias - How much to reduce the lod by. The higher the more detailed vice versa.
 
 ```
 Name My First Building!
