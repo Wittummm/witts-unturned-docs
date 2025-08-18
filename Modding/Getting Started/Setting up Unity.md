@@ -1,12 +1,10 @@
 ---
 publish: true
 ---
-Modding Unturned requires using Unity. Most 2021.3 LTS version should be compatible; Unturned currently uses 2021.3.29f1 (as of 2024/4/23).
-Once you install Unity, create a project to store your mods.
+Modding Unturned requires using Unity. Most 2021.3 LTS version should be compatible; Unturned recommends using 2021.3.29f1 (as of 2024/4/23).
+Once you install Unity, **create a project** to store your mods.
 ### Unity Packages
-
 Unturned provides multiple Unity packages. These packages include examples that can be referenced when creating custom content, and provide the tools necessary to export content from Unity.
-
 1. Open your Unity project.
 2. Select **Assets > Import Package > Custom Package…** from the toolbar.
 3. In the file browser, navigate to the `.../Unturned/Extras/Sources` directory.
