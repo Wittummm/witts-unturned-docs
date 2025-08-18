@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-18T08:44:42.795+07:00","modified":"2025-08-18T10:40:53.564+07:00","cssclasses":""}
+{"publish":true,"created":"2025-08-18T08:44:42.795+07:00","modified":"2025-08-18T12:03:02.399+07:00","cssclasses":""}
 ---
 
 Modding Unturned requires using Unity. Most 2021.3 LTS version should be compatible; Unturned currently uses 2021.3.29f1 (as of 2024/4/23).

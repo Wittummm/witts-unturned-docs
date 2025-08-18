@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-18T08:44:51.231+07:00","modified":"2025-08-18T10:40:10.114+07:00","cssclasses":""}
+{"publish":true,"created":"2025-08-18T08:44:51.231+07:00","modified":"2025-08-18T12:03:02.403+07:00","cssclasses":""}
 ---
 
 <u></u><u></u><u></u>This page will teach you how to make a basic object(building) and get it ready to export for Unturned. It will **not** teach you basics about making the asset itself, only the barebones of what is needed for you to complete and put the asset in-game.
