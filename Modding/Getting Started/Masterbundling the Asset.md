@@ -38,8 +38,13 @@ All you need to do now is move MyFirstBuilding.dat and English.dat into the MyFi
 
 Launch Unturned and go into the map and place your first building in! If it does not work be sure to check Workshop -> Error Logs.&#x20;
 
-***
+---
+(Proofread: 2024/04/30)
+Sources: [A Steam guide on MasterBundling](https://steamcommunity.com/sharedfiles/filedetails/?id=2976338845)
 
-(Proofread: 2024/04/30)\
-Sources:\
-[A Steam guide on MasterBundling](https://steamcommunity.com/sharedfiles/filedetails/?id=2976338845)<u></u>
+```button
+name Back
+type link
+action obsidian://open?vault=Test%20Unturned%20Docs&file=Modding%2FGetting%20Started%2FUnitying%20an%20asset
+```
+^button-nqcv

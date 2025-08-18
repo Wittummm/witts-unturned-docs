@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-<u></u><u></u><u></u><u></u>This page will teach you how to make a basic object(building) and get it ready to export for Unturned. It will **not** teach you basics about creating the asset itself, only the barebones of what is needed for you to complete and put the asset in-game.
+This page will teach you how to make a basic object(building) and get it ready to export for Unturned. It will **not** teach you basics about creating the asset itself, only the barebones of what is needed for you to complete and put the asset in-game.
 ### What makes up an <u>Object</u>?
 > [!tip]
 > If you are too lazy to read or simply don't understand, you can find videos on youtube. You can also watch [Nelson's video](https://www.youtube.com/watch?si=JkNXE_ruAle7w1F4&t=2790).*
@@ -60,3 +60,16 @@ Now you should have `English.dat` and `MyFirstBuilding.dat`. For now, store them
 (Proofread: 2025-08-18)
 Sources: [Official Documentation: Object Assets](https://docs.smartlydressedgames.com/en/stable/assets/object-asset.html)
 Example Files: `.../Objects/Large/Buildings`
+
+```button
+name Back
+type link
+action obsidian://open?vault=Test%20Unturned%20Docs&file=Modding%2FGetting%20Started%2FSetting%20up%20Unity
+```
+^button-zqll
+```button
+name Next
+type link
+action obsidian://open?vault=Test%20Unturned%20Docs&file=Modding%2FGetting%20Started%2FMasterbundling%20the%20Asset
+```
+^button-0ian
